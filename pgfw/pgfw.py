@@ -14,30 +14,30 @@ screen = pygame.display.set_mode((600,300))
 clock = pygame.time.Clock()
 game_over = 0
 pygame.display.set_caption("runner")
-fon = pygame.image.load("img\\fon.jpg")
+fon = pygame.image.load("D:\Work\pgfw\pygame-FW2\pgfw\img\\fon.jpg")
 
-alien = pygame.image.load("img\\alien.png")
+alien = pygame.image.load("D:\Work\pgfw\pygame-FW2\pgfw\img\\alien.png")
 alien_rect = alien.get_rect()
 alien_rect.x = 50
 alien_rect.y = 200
 
-box = pygame.image.load("img\\box.png")
+box = pygame.image.load("D:\Work\pgfw\pygame-FW2\pgfw\img\\box.png")
 box_rect = box.get_rect()
 box_rect.x = 550
 box_rect.y = 240
 
 
-bee = pygame.image.load("img\\bee.png")
+bee = pygame.image.load("D:\Work\pgfw\pygame-FW2\pgfw\img\\bee.png")
 bee_rect = bee.get_rect()
 bee_rect.x = 850
 bee_rect.y = 155
 
-play = pygame.image.load("img\\play.png")
+play = pygame.image.load("D:\Work\pgfw\pygame-FW2\pgfw\img\\play.png")
 play_rect = play.get_rect()
 play_rect.x = 200
 play_rect.y = 100
 
-go = pygame.image.load("img\\GO.jpg")
+go = pygame.image.load("D:\Work\pgfw\pygame-FW2\pgfw\img\\GO.jpg")
 
 
 
@@ -143,9 +143,9 @@ def update():
         collisions()
         clock.tick(30)
     
-#def but_push(but):
-#    if but == 
+
 
 
       
 update()
+
